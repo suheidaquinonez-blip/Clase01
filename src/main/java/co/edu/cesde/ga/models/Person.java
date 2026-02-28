@@ -68,5 +68,19 @@ public class Person {
     public void setStatus(Boolean status) {
         this.status = status;
     }
+
+@Override
+
+    public String toString(){
+        return
+                "userId"+ userIl+
+                        ",code='", code + '\'' +
+                ",documentNumber='" + documentNumber + '\'' +
+                ",firtName ='" + firstName + '\'' +
+               " lastName='" + lastName + '\'' +
+                ",status=" + status;
+
+
+    }
 }
 
