@@ -72,11 +72,10 @@ public class Person {
 @Override
 
     public String toString(){
-        return
-                "userId"+ userIl+
-                        ",code='", code + '\'' +
+        return "User Id="+ userId + " " +
+                ",code='"+code + '\'' +
                 ",documentNumber='" + documentNumber + '\'' +
-                ",firtName ='" + firstName + '\'' +
+                ",firstName ='" + firstName + '\'' +
                " lastName='" + lastName + '\'' +
                 ",status=" + status;
 
